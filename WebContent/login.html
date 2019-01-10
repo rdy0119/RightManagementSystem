@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Login page</title>
+
+	<style type="text/css">
+	   .loginBox{width:300px;
+	             height:200px;
+	             border:2px solid #ccc;
+	             background:#cfc;
+	             border-radius:20px;
+	             margin:100px auto
+	             }
+	    input[type="text"],input[type="password"]{
+	        width:200px;
+	        height:30px;
+	        
+	        margin-bottom:10px;
+	        border: 0;
+	        padding-left: 10px;
+	        border-radius: 10px;
+	    
+	    }        
+	    li{
+	        list-style-type:none
+	    } 
+	    input[type="submit"]{
+	        width:50px;
+	        height: 30px;
+	        margin-left: 160px;
+	        border-radius: 5px;
+	    }
+	</style>
+	
+</head>
+
+<body>
+	<form action="login.do">
+		<div class="loginBox">
+		    <h2 align="center">系统登录</h2>
+		    <ul>
+		       <li><input type="text" name="uname" required="required" placeholder="用户名"/></li>
+		       <li><input type="password" name="upass" required="required" placeholder="密码"/></li>
+		       <li><input type="submit" value="提交"/></li>
+		    </ul>
+		</div>	
+	</form>
+</body>
+</html>
